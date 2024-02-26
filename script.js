@@ -131,9 +131,10 @@ let users = [
     {username: 'levani', status: false},
     {username: 'anna', status: true}
 ]
- for(let item of Object.values(users) )
- if(item.status===true)
- console.log(item);
+ for(let item of users )
+ if(item.status){
+
+ {console.log(item.username);}}
 
 //  11.Მოცემული მასივიდან ამოიღეთ მხოლოდ ციფრები, რომლებიც 5-ის ჯერადია:
   
